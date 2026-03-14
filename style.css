@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  line-height: 1.7;
+  background: #f7fbff;
+}
+
+h1 {
+  color: #0b5cab;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #0b5cab;
+  color: white;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a {
+  color: #0b5cab;
+  text-decoration: none;
+  font-weight: bold;
+}
