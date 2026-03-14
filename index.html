@@ -2,32 +2,20 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <title>테스트</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 700px;
-      margin: 40px auto;
-      line-height: 1.7;
-      background: #f7fbff;
-    }
-    h1 {
-      color: #0b5cab;
-    }
-    button {
-      padding: 10px 16px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      background: #0b5cab;
-      color: white;
-    }
-  </style>
+  <title>나의 첫 인터랙티브 페이지</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>수정 성공</h1>
-  <p>저는 지금 바이브 코딩의 첫 단계를 통과했습니다.</p>
-  <button onclick="alert('정말 잘하고 계십니다!')">눌러보세요</button>
-<p><a href="page2.html">두 번째 페이지로 가기</a></p>
+  <h1>바이브 코딩 연습</h1>
+  <p>이름을 입력하고 버튼을 눌러 보세요.</p>
+
+  <input id="nameInput" type="text" placeholder="이름을 입력하세요">
+  <button onclick="sayHello()">인사하기</button>
+
+  <p id="result">여기에 결과가 나옵니다.</p>
+
+  <p><a href="page2.html">두 번째 페이지로 가기</a></p>
+
+  <script src="script.js"></script>
 </body>
 </html>
